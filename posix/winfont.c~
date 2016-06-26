@@ -13,8 +13,7 @@ FT_Library  library;
 #ifdef __APPLE__
 static const char* TTFONT = "/System/Library/Fonts/STHeiti Light.ttc";
 #else
-//static const char* TTFONT = "/usr/share/fonts/wenquanyi/wqy-zenhei/wqy-zenhei.ttc";
-static const char* TTFONT = "/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-B.ttf";
+static const char* TTFONT = "/usr/share/fonts/wenquanyi/wqy-zenhei/wqy-zenhei.ttc";
 #endif
 
 #define _fault(errcode, msg) __fault(errcode, msg, __FILE__, __LINE__)

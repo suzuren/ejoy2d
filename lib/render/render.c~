@@ -17,7 +17,7 @@
 // If your platform doesn't support VAO, comment it out.
 // Or define VAO_DISABLE first
 #define VAO_DISABLE
-//#define VAO_ENABLE
+#define VAO_ENABLE
 
 
 #if defined (GL_OES_vertex_array_object)
